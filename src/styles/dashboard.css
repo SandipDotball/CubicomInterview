@@ -1,0 +1,5 @@
+@import './information.css';
+@import './performanceTable.css';
+.dashboard {
+  height: 100%;
+}

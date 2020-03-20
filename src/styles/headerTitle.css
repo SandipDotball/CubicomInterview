@@ -1,0 +1,15 @@
+.headerTitle {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerTitle__title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  font-family: 'proxima_novabold', sans-serif;
+}
+.headerTitle__children {
+}

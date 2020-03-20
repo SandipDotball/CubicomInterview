@@ -1,0 +1,37 @@
+.form__field {
+  margin: 0 0 25px;
+}
+.form__field label {
+  display: block;
+  font-family: 'proxima_novaregular', sans-serif;
+  color: #8e8e8e;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+.form__field--input {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 12px;
+  color: #2c2c2c;
+  display: block;
+  width: 100%;
+  font-family: 'proxima_novaregular', sans-serif;
+}
+.form__field--error {
+  color: #ff0000;
+  font-size: 13px;
+}
+.form__field--warning {
+  color: #ff9900;
+  font-size: 13px;
+}
+.form__field--checkbox {
+}
+.form__field--checkbox label {
+  font-size: 14px;
+  color: #6e6e6e;
+}

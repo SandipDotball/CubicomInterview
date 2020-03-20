@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  background: #00a29d;
+  border-radius: 16px;
+  padding: 0 20px;
+  line-height: 32px;
+  font-family: 'proxima_novabold', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.35s ease;
+}
+.button:hover,
+.button:focus {
+  background-color: #0ecfc9;
+}
+.button:focus {
+  outline: none;
+}

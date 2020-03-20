@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "count": 121,
+    "name": "Booking",
+    "description": "No. of Waybills"
+  },
+  {
+    "id": 2,
+    "count": 55,
+    "name": "OFD",
+    "description": "Out for Delivery"
+  },
+  {
+    "id": 3,
+    "count": 430,
+    "name": "DEL",
+    "description": "Delivered"
+  },
+  {
+    "id": 4,
+    "count": 23,
+    "name": "UNDEL",
+    "description": "Undelivered"
+  }
+]

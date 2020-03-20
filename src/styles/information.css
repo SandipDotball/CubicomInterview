@@ -1,0 +1,83 @@
+.information {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 32px;
+}
+.information .informationShow {
+  flex: 0 0 calc(100% - 166px);
+}
+.information .informationChart {
+  flex: 0 0 166px;
+}
+
+.informationShow {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 4px #eaeaea;
+  border-radius: 10px;
+  padding: 16px;
+}
+.informationShow__row {
+  margin-left: -6px;
+  margin-right: -6px;
+  display: flex;
+  justify-content: flex-start;
+}
+.informationShow .informationCard {
+  padding-left: 6px;
+  padding-right: 6px;
+  flex: 0.25;
+}
+.informationChart {
+  padding: 16px 0 16px 16px;
+}
+.informationChart svg {
+  display: block;
+}
+.informationCard__body {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 16px;
+  position: relative;
+  overflow: hidden;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.informationCard__count {
+  font-size: 36px;
+  font-family: 'proxima_novabold', sans-serif;
+  line-height: 1.2;
+  color: #b3b3b3;
+  margin: 0;
+}
+.informationCard__info {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+.informationCard__info h4 {
+  font-size: 14px;
+  font-family: 'proxima_novabold', sans-serif;
+  line-height: 1.2;
+  color: #2c2c2c;
+  margin: 0 0 2px;
+}
+.informationCard__info p {
+  margin: 0;
+}
+.informationCard__icon {
+  position: absolute;
+  top: -24px;
+  right: -17px;
+  background-color: rgba(0, 0, 0, 0.07);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.informationCard:hover .informationCard__count {
+  color: #00a29d;
+}

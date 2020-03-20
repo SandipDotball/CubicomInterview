@@ -1,0 +1,78 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-right: solid 1px #e1e1e1;
+}
+.sidebarMenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebarMenuItem {
+  display: block;
+  padding: 0 0 1px;
+}
+.sidebarMenuItem a {
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+}
+.sidebarMenuItem a img {
+  margin-right: 8px;
+}
+.sidebarMenuItem a.active {
+  border-left: 2px solid #00a29d;
+  color: #2c2c2c;
+  font-family: 'proxima_novabold', sans-serif;
+}
+.sidebarMenuItem__button {
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+}
+.sidebarMenuItem__button span {
+  display: flex;
+  align-items: center;
+}
+.sidebarMenuItem__button span img {
+  margin-right: 8px;
+}
+.sidebarMenuItem__button > img {
+  transform: rotate(-90deg);
+}
+
+.sidebarMenuItem__button:focus {
+  outline: none;
+}
+.sidebarMenu__sub {
+  display: none;
+}
+.sidebar .button {
+  float: right;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
